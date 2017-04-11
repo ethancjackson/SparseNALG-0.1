@@ -1,0 +1,422 @@
+<substrate leo="false">
+  <neuronGroups>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="0" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="1" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="2" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="3" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="4" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="5" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="6" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="7" startx="-1" starty="-1" type="Input"/>
+    <group dx="9" dy="1" endx="-1" endy="-1" id="8" startx="-1" starty="-1" type="Input"/>
+    <group dx="8" dy="8" endx="-0.75" endy="-0.6" id="9" startx="-1" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="-0.6" id="10" startx="-0.75" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="-0.6" id="11" startx="-0.5" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="-0.6" id="12" startx="-0.25" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="-0.6" id="13" startx="0.0" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="-0.6" id="14" startx="0.25" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="-0.6" id="15" startx="0.5" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="-0.6" id="16" startx="0.75" starty="-0.8" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="-0.4" id="17" startx="-1" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="-0.4" id="18" startx="-0.75" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="-0.4" id="19" startx="-0.5" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="-0.4" id="20" startx="-0.25" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="-0.4" id="21" startx="0.0" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="-0.4" id="22" startx="0.25" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="-0.4" id="23" startx="0.5" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="-0.4" id="24" startx="0.75" starty="-0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="-0.2" id="25" startx="-1" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="-0.2" id="26" startx="-0.75" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="-0.2" id="27" startx="-0.5" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="-0.2" id="28" startx="-0.25" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="-0.2" id="29" startx="0.0" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="-0.2" id="30" startx="0.25" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="-0.2" id="31" startx="0.5" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="-0.2" id="32" startx="0.75" starty="-0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="-5.55111512313e-17" id="33" startx="-1" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="-5.55111512313e-17" id="34" startx="-0.75" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="-5.55111512313e-17" id="35" startx="-0.5" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="-5.55111512313e-17" id="36" startx="-0.25" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="-5.55111512313e-17" id="37" startx="0.0" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="-5.55111512313e-17" id="38" startx="0.25" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="-5.55111512313e-17" id="39" startx="0.5" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="-5.55111512313e-17" id="40" startx="0.75" starty="-0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="0.2" id="41" startx="-1" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="0.2" id="42" startx="-0.75" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="0.2" id="43" startx="-0.5" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="0.2" id="44" startx="-0.25" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="0.2" id="45" startx="0.0" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="0.2" id="46" startx="0.25" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="0.2" id="47" startx="0.5" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="0.2" id="48" startx="0.75" starty="-5.55111512313e-17" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="0.4" id="49" startx="-1" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="0.4" id="50" startx="-0.75" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="0.4" id="51" startx="-0.5" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="0.4" id="52" startx="-0.25" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="0.4" id="53" startx="0.0" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="0.4" id="54" startx="0.25" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="0.4" id="55" startx="0.5" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="0.4" id="56" startx="0.75" starty="0.2" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="0.6" id="57" startx="-1" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="0.6" id="58" startx="-0.75" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="0.6" id="59" startx="-0.5" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="0.6" id="60" startx="-0.25" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="0.6" id="61" startx="0.0" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="0.6" id="62" startx="0.25" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="0.6" id="63" startx="0.5" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="0.6" id="64" startx="0.75" starty="0.4" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.75" endy="0.8" id="65" startx="-1" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.5" endy="0.8" id="66" startx="-0.75" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="-0.25" endy="0.8" id="67" startx="-0.5" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.0" endy="0.8" id="68" startx="-0.25" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.25" endy="0.8" id="69" startx="0.0" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.5" endy="0.8" id="70" startx="0.25" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="0.75" endy="0.8" id="71" startx="0.5" starty="0.6" type="Hidden"/>
+    <group dx="8" dy="8" endx="1.0" endy="0.8" id="72" startx="0.75" starty="0.6" type="Hidden"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="73" startx="-1" starty="1" type="Output"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="74" startx="-1" starty="1" type="Output"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="75" startx="-1" starty="1" type="Output"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="76" startx="-1" starty="1" type="Output"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="77" startx="-1" starty="1" type="Output"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="78" startx="-1" starty="1" type="Output"/>
+    <group dx="7" dy="1" endx="-1" endy="1" id="79" startx="-1" starty="1" type="Output"/>
+  </neuronGroups>
+  <connections>
+    <connection src-id="0" tg-id="9" type="fully-connected"/>
+    <connection src-id="0" tg-id="25" type="fully-connected"/>
+    <connection src-id="1" tg-id="10" type="fully-connected"/>
+    <connection src-id="1" tg-id="13" type="fully-connected"/>
+    <connection src-id="1" tg-id="26" type="fully-connected"/>
+    <connection src-id="1" tg-id="29" type="fully-connected"/>
+    <connection src-id="2" tg-id="14" type="fully-connected"/>
+    <connection src-id="2" tg-id="30" type="fully-connected"/>
+    <connection src-id="3" tg-id="11" type="fully-connected"/>
+    <connection src-id="3" tg-id="17" type="fully-connected"/>
+    <connection src-id="3" tg-id="27" type="fully-connected"/>
+    <connection src-id="3" tg-id="33" type="fully-connected"/>
+    <connection src-id="4" tg-id="12" type="fully-connected"/>
+    <connection src-id="4" tg-id="15" type="fully-connected"/>
+    <connection src-id="4" tg-id="18" type="fully-connected"/>
+    <connection src-id="4" tg-id="21" type="fully-connected"/>
+    <connection src-id="4" tg-id="28" type="fully-connected"/>
+    <connection src-id="4" tg-id="31" type="fully-connected"/>
+    <connection src-id="4" tg-id="34" type="fully-connected"/>
+    <connection src-id="4" tg-id="37" type="fully-connected"/>
+    <connection src-id="5" tg-id="16" type="fully-connected"/>
+    <connection src-id="5" tg-id="22" type="fully-connected"/>
+    <connection src-id="5" tg-id="32" type="fully-connected"/>
+    <connection src-id="5" tg-id="38" type="fully-connected"/>
+    <connection src-id="6" tg-id="19" type="fully-connected"/>
+    <connection src-id="6" tg-id="35" type="fully-connected"/>
+    <connection src-id="7" tg-id="20" type="fully-connected"/>
+    <connection src-id="7" tg-id="23" type="fully-connected"/>
+    <connection src-id="7" tg-id="36" type="fully-connected"/>
+    <connection src-id="7" tg-id="39" type="fully-connected"/>
+    <connection src-id="8" tg-id="24" type="fully-connected"/>
+    <connection src-id="8" tg-id="40" type="fully-connected"/>
+    <connection src-id="9" tg-id="41" type="fully-connected"/>
+    <connection src-id="10" tg-id="41" type="fully-connected"/>
+    <connection src-id="11" tg-id="41" type="fully-connected"/>
+    <connection src-id="12" tg-id="41" type="fully-connected"/>
+    <connection src-id="13" tg-id="42" type="fully-connected"/>
+    <connection src-id="14" tg-id="42" type="fully-connected"/>
+    <connection src-id="15" tg-id="42" type="fully-connected"/>
+    <connection src-id="16" tg-id="42" type="fully-connected"/>
+    <connection src-id="17" tg-id="43" type="fully-connected"/>
+    <connection src-id="18" tg-id="43" type="fully-connected"/>
+    <connection src-id="19" tg-id="43" type="fully-connected"/>
+    <connection src-id="20" tg-id="43" type="fully-connected"/>
+    <connection src-id="21" tg-id="44" type="fully-connected"/>
+    <connection src-id="22" tg-id="44" type="fully-connected"/>
+    <connection src-id="23" tg-id="44" type="fully-connected"/>
+    <connection src-id="24" tg-id="44" type="fully-connected"/>
+    <connection src-id="25" tg-id="49" type="fully-connected"/>
+    <connection src-id="26" tg-id="49" type="fully-connected"/>
+    <connection src-id="27" tg-id="49" type="fully-connected"/>
+    <connection src-id="28" tg-id="49" type="fully-connected"/>
+    <connection src-id="29" tg-id="50" type="fully-connected"/>
+    <connection src-id="30" tg-id="50" type="fully-connected"/>
+    <connection src-id="31" tg-id="50" type="fully-connected"/>
+    <connection src-id="32" tg-id="50" type="fully-connected"/>
+    <connection src-id="33" tg-id="51" type="fully-connected"/>
+    <connection src-id="34" tg-id="51" type="fully-connected"/>
+    <connection src-id="35" tg-id="51" type="fully-connected"/>
+    <connection src-id="36" tg-id="51" type="fully-connected"/>
+    <connection src-id="37" tg-id="52" type="fully-connected"/>
+    <connection src-id="38" tg-id="52" type="fully-connected"/>
+    <connection src-id="39" tg-id="52" type="fully-connected"/>
+    <connection src-id="40" tg-id="52" type="fully-connected"/>
+    <connection src-id="41" tg-id="45" type="fully-connected"/>
+    <connection src-id="41" tg-id="46" type="fully-connected"/>
+    <connection src-id="41" tg-id="47" type="fully-connected"/>
+    <connection src-id="41" tg-id="48" type="fully-connected"/>
+    <connection src-id="42" tg-id="45" type="fully-connected"/>
+    <connection src-id="42" tg-id="46" type="fully-connected"/>
+    <connection src-id="42" tg-id="47" type="fully-connected"/>
+    <connection src-id="42" tg-id="48" type="fully-connected"/>
+    <connection src-id="43" tg-id="45" type="fully-connected"/>
+    <connection src-id="43" tg-id="46" type="fully-connected"/>
+    <connection src-id="43" tg-id="47" type="fully-connected"/>
+    <connection src-id="43" tg-id="48" type="fully-connected"/>
+    <connection src-id="44" tg-id="45" type="fully-connected"/>
+    <connection src-id="44" tg-id="46" type="fully-connected"/>
+    <connection src-id="44" tg-id="47" type="fully-connected"/>
+    <connection src-id="44" tg-id="48" type="fully-connected"/>
+    <connection src-id="45" tg-id="57" type="fully-connected"/>
+    <connection src-id="45" tg-id="58" type="fully-connected"/>
+    <connection src-id="45" tg-id="59" type="fully-connected"/>
+    <connection src-id="45" tg-id="60" type="fully-connected"/>
+    <connection src-id="45" tg-id="61" type="fully-connected"/>
+    <connection src-id="45" tg-id="62" type="fully-connected"/>
+    <connection src-id="45" tg-id="63" type="fully-connected"/>
+    <connection src-id="45" tg-id="64" type="fully-connected"/>
+    <connection src-id="45" tg-id="65" type="fully-connected"/>
+    <connection src-id="45" tg-id="66" type="fully-connected"/>
+    <connection src-id="45" tg-id="67" type="fully-connected"/>
+    <connection src-id="45" tg-id="68" type="fully-connected"/>
+    <connection src-id="45" tg-id="69" type="fully-connected"/>
+    <connection src-id="45" tg-id="70" type="fully-connected"/>
+    <connection src-id="45" tg-id="71" type="fully-connected"/>
+    <connection src-id="45" tg-id="72" type="fully-connected"/>
+    <connection src-id="46" tg-id="57" type="fully-connected"/>
+    <connection src-id="46" tg-id="58" type="fully-connected"/>
+    <connection src-id="46" tg-id="59" type="fully-connected"/>
+    <connection src-id="46" tg-id="60" type="fully-connected"/>
+    <connection src-id="46" tg-id="61" type="fully-connected"/>
+    <connection src-id="46" tg-id="62" type="fully-connected"/>
+    <connection src-id="46" tg-id="63" type="fully-connected"/>
+    <connection src-id="46" tg-id="64" type="fully-connected"/>
+    <connection src-id="46" tg-id="65" type="fully-connected"/>
+    <connection src-id="46" tg-id="66" type="fully-connected"/>
+    <connection src-id="46" tg-id="67" type="fully-connected"/>
+    <connection src-id="46" tg-id="68" type="fully-connected"/>
+    <connection src-id="46" tg-id="69" type="fully-connected"/>
+    <connection src-id="46" tg-id="70" type="fully-connected"/>
+    <connection src-id="46" tg-id="71" type="fully-connected"/>
+    <connection src-id="46" tg-id="72" type="fully-connected"/>
+    <connection src-id="47" tg-id="57" type="fully-connected"/>
+    <connection src-id="47" tg-id="58" type="fully-connected"/>
+    <connection src-id="47" tg-id="59" type="fully-connected"/>
+    <connection src-id="47" tg-id="60" type="fully-connected"/>
+    <connection src-id="47" tg-id="61" type="fully-connected"/>
+    <connection src-id="47" tg-id="62" type="fully-connected"/>
+    <connection src-id="47" tg-id="63" type="fully-connected"/>
+    <connection src-id="47" tg-id="64" type="fully-connected"/>
+    <connection src-id="47" tg-id="65" type="fully-connected"/>
+    <connection src-id="47" tg-id="66" type="fully-connected"/>
+    <connection src-id="47" tg-id="67" type="fully-connected"/>
+    <connection src-id="47" tg-id="68" type="fully-connected"/>
+    <connection src-id="47" tg-id="69" type="fully-connected"/>
+    <connection src-id="47" tg-id="70" type="fully-connected"/>
+    <connection src-id="47" tg-id="71" type="fully-connected"/>
+    <connection src-id="47" tg-id="72" type="fully-connected"/>
+    <connection src-id="48" tg-id="57" type="fully-connected"/>
+    <connection src-id="48" tg-id="58" type="fully-connected"/>
+    <connection src-id="48" tg-id="59" type="fully-connected"/>
+    <connection src-id="48" tg-id="60" type="fully-connected"/>
+    <connection src-id="48" tg-id="61" type="fully-connected"/>
+    <connection src-id="48" tg-id="62" type="fully-connected"/>
+    <connection src-id="48" tg-id="63" type="fully-connected"/>
+    <connection src-id="48" tg-id="64" type="fully-connected"/>
+    <connection src-id="48" tg-id="65" type="fully-connected"/>
+    <connection src-id="48" tg-id="66" type="fully-connected"/>
+    <connection src-id="48" tg-id="67" type="fully-connected"/>
+    <connection src-id="48" tg-id="68" type="fully-connected"/>
+    <connection src-id="48" tg-id="69" type="fully-connected"/>
+    <connection src-id="48" tg-id="70" type="fully-connected"/>
+    <connection src-id="48" tg-id="71" type="fully-connected"/>
+    <connection src-id="48" tg-id="72" type="fully-connected"/>
+    <connection src-id="49" tg-id="53" type="fully-connected"/>
+    <connection src-id="49" tg-id="54" type="fully-connected"/>
+    <connection src-id="49" tg-id="55" type="fully-connected"/>
+    <connection src-id="49" tg-id="56" type="fully-connected"/>
+    <connection src-id="50" tg-id="53" type="fully-connected"/>
+    <connection src-id="50" tg-id="54" type="fully-connected"/>
+    <connection src-id="50" tg-id="55" type="fully-connected"/>
+    <connection src-id="50" tg-id="56" type="fully-connected"/>
+    <connection src-id="51" tg-id="53" type="fully-connected"/>
+    <connection src-id="51" tg-id="54" type="fully-connected"/>
+    <connection src-id="51" tg-id="55" type="fully-connected"/>
+    <connection src-id="51" tg-id="56" type="fully-connected"/>
+    <connection src-id="52" tg-id="53" type="fully-connected"/>
+    <connection src-id="52" tg-id="54" type="fully-connected"/>
+    <connection src-id="52" tg-id="55" type="fully-connected"/>
+    <connection src-id="52" tg-id="56" type="fully-connected"/>
+    <connection src-id="53" tg-id="57" type="fully-connected"/>
+    <connection src-id="53" tg-id="58" type="fully-connected"/>
+    <connection src-id="53" tg-id="59" type="fully-connected"/>
+    <connection src-id="53" tg-id="60" type="fully-connected"/>
+    <connection src-id="53" tg-id="61" type="fully-connected"/>
+    <connection src-id="53" tg-id="62" type="fully-connected"/>
+    <connection src-id="53" tg-id="63" type="fully-connected"/>
+    <connection src-id="53" tg-id="64" type="fully-connected"/>
+    <connection src-id="53" tg-id="65" type="fully-connected"/>
+    <connection src-id="53" tg-id="66" type="fully-connected"/>
+    <connection src-id="53" tg-id="67" type="fully-connected"/>
+    <connection src-id="53" tg-id="68" type="fully-connected"/>
+    <connection src-id="53" tg-id="69" type="fully-connected"/>
+    <connection src-id="53" tg-id="70" type="fully-connected"/>
+    <connection src-id="53" tg-id="71" type="fully-connected"/>
+    <connection src-id="53" tg-id="72" type="fully-connected"/>
+    <connection src-id="54" tg-id="57" type="fully-connected"/>
+    <connection src-id="54" tg-id="58" type="fully-connected"/>
+    <connection src-id="54" tg-id="59" type="fully-connected"/>
+    <connection src-id="54" tg-id="60" type="fully-connected"/>
+    <connection src-id="54" tg-id="61" type="fully-connected"/>
+    <connection src-id="54" tg-id="62" type="fully-connected"/>
+    <connection src-id="54" tg-id="63" type="fully-connected"/>
+    <connection src-id="54" tg-id="64" type="fully-connected"/>
+    <connection src-id="54" tg-id="65" type="fully-connected"/>
+    <connection src-id="54" tg-id="66" type="fully-connected"/>
+    <connection src-id="54" tg-id="67" type="fully-connected"/>
+    <connection src-id="54" tg-id="68" type="fully-connected"/>
+    <connection src-id="54" tg-id="69" type="fully-connected"/>
+    <connection src-id="54" tg-id="70" type="fully-connected"/>
+    <connection src-id="54" tg-id="71" type="fully-connected"/>
+    <connection src-id="54" tg-id="72" type="fully-connected"/>
+    <connection src-id="55" tg-id="57" type="fully-connected"/>
+    <connection src-id="55" tg-id="58" type="fully-connected"/>
+    <connection src-id="55" tg-id="59" type="fully-connected"/>
+    <connection src-id="55" tg-id="60" type="fully-connected"/>
+    <connection src-id="55" tg-id="61" type="fully-connected"/>
+    <connection src-id="55" tg-id="62" type="fully-connected"/>
+    <connection src-id="55" tg-id="63" type="fully-connected"/>
+    <connection src-id="55" tg-id="64" type="fully-connected"/>
+    <connection src-id="55" tg-id="65" type="fully-connected"/>
+    <connection src-id="55" tg-id="66" type="fully-connected"/>
+    <connection src-id="55" tg-id="67" type="fully-connected"/>
+    <connection src-id="55" tg-id="68" type="fully-connected"/>
+    <connection src-id="55" tg-id="69" type="fully-connected"/>
+    <connection src-id="55" tg-id="70" type="fully-connected"/>
+    <connection src-id="55" tg-id="71" type="fully-connected"/>
+    <connection src-id="55" tg-id="72" type="fully-connected"/>
+    <connection src-id="56" tg-id="57" type="fully-connected"/>
+    <connection src-id="56" tg-id="58" type="fully-connected"/>
+    <connection src-id="56" tg-id="59" type="fully-connected"/>
+    <connection src-id="56" tg-id="60" type="fully-connected"/>
+    <connection src-id="56" tg-id="61" type="fully-connected"/>
+    <connection src-id="56" tg-id="62" type="fully-connected"/>
+    <connection src-id="56" tg-id="63" type="fully-connected"/>
+    <connection src-id="56" tg-id="64" type="fully-connected"/>
+    <connection src-id="56" tg-id="65" type="fully-connected"/>
+    <connection src-id="56" tg-id="66" type="fully-connected"/>
+    <connection src-id="56" tg-id="67" type="fully-connected"/>
+    <connection src-id="56" tg-id="68" type="fully-connected"/>
+    <connection src-id="56" tg-id="69" type="fully-connected"/>
+    <connection src-id="56" tg-id="70" type="fully-connected"/>
+    <connection src-id="56" tg-id="71" type="fully-connected"/>
+    <connection src-id="56" tg-id="72" type="fully-connected"/>
+    <connection src-id="57" tg-id="73" type="fully-connected"/>
+    <connection src-id="57" tg-id="74" type="fully-connected"/>
+    <connection src-id="57" tg-id="75" type="fully-connected"/>
+    <connection src-id="57" tg-id="76" type="fully-connected"/>
+    <connection src-id="57" tg-id="77" type="fully-connected"/>
+    <connection src-id="57" tg-id="78" type="fully-connected"/>
+    <connection src-id="57" tg-id="79" type="fully-connected"/>
+    <connection src-id="58" tg-id="73" type="fully-connected"/>
+    <connection src-id="58" tg-id="74" type="fully-connected"/>
+    <connection src-id="58" tg-id="75" type="fully-connected"/>
+    <connection src-id="58" tg-id="76" type="fully-connected"/>
+    <connection src-id="58" tg-id="77" type="fully-connected"/>
+    <connection src-id="58" tg-id="78" type="fully-connected"/>
+    <connection src-id="58" tg-id="79" type="fully-connected"/>
+    <connection src-id="59" tg-id="73" type="fully-connected"/>
+    <connection src-id="59" tg-id="74" type="fully-connected"/>
+    <connection src-id="59" tg-id="75" type="fully-connected"/>
+    <connection src-id="59" tg-id="76" type="fully-connected"/>
+    <connection src-id="59" tg-id="77" type="fully-connected"/>
+    <connection src-id="59" tg-id="78" type="fully-connected"/>
+    <connection src-id="59" tg-id="79" type="fully-connected"/>
+    <connection src-id="60" tg-id="73" type="fully-connected"/>
+    <connection src-id="60" tg-id="74" type="fully-connected"/>
+    <connection src-id="60" tg-id="75" type="fully-connected"/>
+    <connection src-id="60" tg-id="76" type="fully-connected"/>
+    <connection src-id="60" tg-id="77" type="fully-connected"/>
+    <connection src-id="60" tg-id="78" type="fully-connected"/>
+    <connection src-id="60" tg-id="79" type="fully-connected"/>
+    <connection src-id="61" tg-id="73" type="fully-connected"/>
+    <connection src-id="61" tg-id="74" type="fully-connected"/>
+    <connection src-id="61" tg-id="75" type="fully-connected"/>
+    <connection src-id="61" tg-id="76" type="fully-connected"/>
+    <connection src-id="61" tg-id="77" type="fully-connected"/>
+    <connection src-id="61" tg-id="78" type="fully-connected"/>
+    <connection src-id="61" tg-id="79" type="fully-connected"/>
+    <connection src-id="62" tg-id="73" type="fully-connected"/>
+    <connection src-id="62" tg-id="74" type="fully-connected"/>
+    <connection src-id="62" tg-id="75" type="fully-connected"/>
+    <connection src-id="62" tg-id="76" type="fully-connected"/>
+    <connection src-id="62" tg-id="77" type="fully-connected"/>
+    <connection src-id="62" tg-id="78" type="fully-connected"/>
+    <connection src-id="62" tg-id="79" type="fully-connected"/>
+    <connection src-id="63" tg-id="73" type="fully-connected"/>
+    <connection src-id="63" tg-id="74" type="fully-connected"/>
+    <connection src-id="63" tg-id="75" type="fully-connected"/>
+    <connection src-id="63" tg-id="76" type="fully-connected"/>
+    <connection src-id="63" tg-id="77" type="fully-connected"/>
+    <connection src-id="63" tg-id="78" type="fully-connected"/>
+    <connection src-id="63" tg-id="79" type="fully-connected"/>
+    <connection src-id="64" tg-id="73" type="fully-connected"/>
+    <connection src-id="64" tg-id="74" type="fully-connected"/>
+    <connection src-id="64" tg-id="75" type="fully-connected"/>
+    <connection src-id="64" tg-id="76" type="fully-connected"/>
+    <connection src-id="64" tg-id="77" type="fully-connected"/>
+    <connection src-id="64" tg-id="78" type="fully-connected"/>
+    <connection src-id="64" tg-id="79" type="fully-connected"/>
+    <connection src-id="65" tg-id="73" type="fully-connected"/>
+    <connection src-id="65" tg-id="74" type="fully-connected"/>
+    <connection src-id="65" tg-id="75" type="fully-connected"/>
+    <connection src-id="65" tg-id="76" type="fully-connected"/>
+    <connection src-id="65" tg-id="77" type="fully-connected"/>
+    <connection src-id="65" tg-id="78" type="fully-connected"/>
+    <connection src-id="65" tg-id="79" type="fully-connected"/>
+    <connection src-id="66" tg-id="73" type="fully-connected"/>
+    <connection src-id="66" tg-id="74" type="fully-connected"/>
+    <connection src-id="66" tg-id="75" type="fully-connected"/>
+    <connection src-id="66" tg-id="76" type="fully-connected"/>
+    <connection src-id="66" tg-id="77" type="fully-connected"/>
+    <connection src-id="66" tg-id="78" type="fully-connected"/>
+    <connection src-id="66" tg-id="79" type="fully-connected"/>
+    <connection src-id="67" tg-id="73" type="fully-connected"/>
+    <connection src-id="67" tg-id="74" type="fully-connected"/>
+    <connection src-id="67" tg-id="75" type="fully-connected"/>
+    <connection src-id="67" tg-id="76" type="fully-connected"/>
+    <connection src-id="67" tg-id="77" type="fully-connected"/>
+    <connection src-id="67" tg-id="78" type="fully-connected"/>
+    <connection src-id="67" tg-id="79" type="fully-connected"/>
+    <connection src-id="68" tg-id="73" type="fully-connected"/>
+    <connection src-id="68" tg-id="74" type="fully-connected"/>
+    <connection src-id="68" tg-id="75" type="fully-connected"/>
+    <connection src-id="68" tg-id="76" type="fully-connected"/>
+    <connection src-id="68" tg-id="77" type="fully-connected"/>
+    <connection src-id="68" tg-id="78" type="fully-connected"/>
+    <connection src-id="68" tg-id="79" type="fully-connected"/>
+    <connection src-id="69" tg-id="73" type="fully-connected"/>
+    <connection src-id="69" tg-id="74" type="fully-connected"/>
+    <connection src-id="69" tg-id="75" type="fully-connected"/>
+    <connection src-id="69" tg-id="76" type="fully-connected"/>
+    <connection src-id="69" tg-id="77" type="fully-connected"/>
+    <connection src-id="69" tg-id="78" type="fully-connected"/>
+    <connection src-id="69" tg-id="79" type="fully-connected"/>
+    <connection src-id="70" tg-id="73" type="fully-connected"/>
+    <connection src-id="70" tg-id="74" type="fully-connected"/>
+    <connection src-id="70" tg-id="75" type="fully-connected"/>
+    <connection src-id="70" tg-id="76" type="fully-connected"/>
+    <connection src-id="70" tg-id="77" type="fully-connected"/>
+    <connection src-id="70" tg-id="78" type="fully-connected"/>
+    <connection src-id="70" tg-id="79" type="fully-connected"/>
+    <connection src-id="71" tg-id="73" type="fully-connected"/>
+    <connection src-id="71" tg-id="74" type="fully-connected"/>
+    <connection src-id="71" tg-id="75" type="fully-connected"/>
+    <connection src-id="71" tg-id="76" type="fully-connected"/>
+    <connection src-id="71" tg-id="77" type="fully-connected"/>
+    <connection src-id="71" tg-id="78" type="fully-connected"/>
+    <connection src-id="71" tg-id="79" type="fully-connected"/>
+    <connection src-id="72" tg-id="73" type="fully-connected"/>
+    <connection src-id="72" tg-id="74" type="fully-connected"/>
+    <connection src-id="72" tg-id="75" type="fully-connected"/>
+    <connection src-id="72" tg-id="76" type="fully-connected"/>
+    <connection src-id="72" tg-id="77" type="fully-connected"/>
+    <connection src-id="72" tg-id="78" type="fully-connected"/>
+    <connection src-id="72" tg-id="79" type="fully-connected"/>
+  </connections>
+</substrate>
