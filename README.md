@@ -1,6 +1,6 @@
 # SparseNALG-0.1
 
-Digital appendix for 'An Algebraic Generalization for Graph and Tensor-Based Neural Networks' in preparation for CIBCB 2017.  
+Digital appendix for 'An Algebraic Generalization for Graph and Tensor-Based Neural Networks', an accepted paper for CIBCB 2017.  
 
 This appendix includes an implementation of algebraic operations based on relational sums using linear algebraic primitives. Operations based on relational sums are used to build a useful extension to linear algebra called SparseNALG that enables the construction of connectivity matrices for describing arbitrary neural networks.
 
